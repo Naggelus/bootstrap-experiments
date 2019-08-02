@@ -1,0 +1,25 @@
+{
+  "global_informations": {
+    "currencies": {
+      "points": 100,
+      "coins": 500
+    },
+    "variables": {
+      "strength": 50,
+      "agility": 50,
+      "charisma": 50
+    }
+  },
+  "deck": [
+    {
+      "id": "1",
+      "type": "section",
+      "image": {
+        "src": "https://via.placeholder.com/1000x500",
+        "alt": "1000 x 500 Placeholder Image"
+      },
+      "title": "Test1",
+      "description": "This is just a experimental section."
+    }
+  ]
+}
