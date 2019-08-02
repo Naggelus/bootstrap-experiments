@@ -1,0 +1,13 @@
+{
+  "global_informations": {
+    "currencies": {
+      "points": 100,
+      "coins": 500
+    },
+    "variables": {
+      "strength": 50,
+      "agility": 50,
+      "charisma": 50
+    }
+  }
+}
