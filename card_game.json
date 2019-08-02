@@ -12,14 +12,33 @@
   },
   "deck": [
     {
-      "id": "1",
-      "type": "section",
+      "id": 1,
+      "type": "container",
       "image": {
         "src": "https://via.placeholder.com/1000x500",
         "alt": "1000 x 500 Placeholder Image"
       },
-      "title": "Test1",
-      "description": "This is just a experimental section."
+      "title": "Container 1",
+      "description": "This is just a experimental container.",
+      "min_sel_items": 0,
+      "max_sel_items": -1,
+      "items": [
+        {
+          "id": 2,
+          "type": "item",
+          "title": "Item 1",
+          "description": "This is your first choice",
+          "budget_mutations": {
+            "points": "-1",
+            "coins": "+5"
+          },
+          "variable_mutations": {
+            "strength": "+5",
+            "agility": "-10",
+            "charisma": "/2"
+          }
+        }
+      ]
     }
   ]
 }
