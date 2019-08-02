@@ -1,5 +1,20 @@
 {
   "global_informations": {
+    "title": "Test",
+    "img": {
+      "src": "https://via.placeholder.com/256x256",
+      "alt": "This is actually the title image."
+    },
+    "version": "1.0",
+    "creator": {
+      "name": "me",
+      "link": "https://example.com/me"
+    },
+    "credits": {
+      "name": "the other guy",
+      "link": "https://example.com/the+other+guy"
+    },
+    "description": "This is just a test.",
     "currencies": {
       "points": 100,
       "coins": 500
@@ -7,16 +22,17 @@
     "variables": {
       "strength": 50,
       "agility": 50,
-      "charisma": 50
+      "charisma": 50,
+      "intelligence": 50
     }
   },
   "deck": [
     {
       "id": 1,
       "type": "container",
-      "image": {
+      "img": {
         "src": "https://via.placeholder.com/1000x500",
-        "alt": "1000 x 500 Placeholder Image"
+        "alt": "This is the first container's image."
       },
       "title": "Container 1",
       "description": "This is just a experimental container.",
@@ -25,8 +41,12 @@
       "items": [
         {
           "id": 2,
-          "type": "item",
-          "title": "Item 1",
+          "type": "choice",
+          "img": {
+            "src": "https://via.placeholder.com/256x256",
+            "alt": "This is the first choice's image."
+          },
+          "title": "Choice 1",
           "description": "This is your first choice",
           "budget_mutations": {
             "points": "-1",
